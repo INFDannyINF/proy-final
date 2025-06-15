@@ -1,0 +1,38 @@
+.padre{
+    background-color: chocolate;    
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-areas:"bar bar " 
+                        "menu menu "
+                         "c1   c1   "
+                         "foot foot ";
+                         
+}
+.padre .bar{
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    background-color: #6188dd;
+    grid-area: bar;
+}
+.padre .menu{
+    width: 100%;
+    grid-area: menu;
+}
+.padre .c1{
+    padding: 20px;      
+    grid-area: c1;
+    width: 100%;
+}
+.padre .foot{
+    background-color: #9BC01C;
+    border-radius: 60px;
+    margin: 5px;
+    text-align: center;
+    grid-area: foot;
+    height: 100px;
+}
+img{
+    height: 250px;
+    width: 350px;
+}
